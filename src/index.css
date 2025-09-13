@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --color-p-red: hsl(14, 86%, 42%);
+  --color-p-green: hsl(14, 86%, 42%);
+
+  --color-p-rose-50: hsl(20, 50%, 98%);
+  --color-p-rose-100: hsl(20, 50%, 98%);
+  --color-p-rose-300: hsl(20, 50%, 98%);
+  --color-p-rose-400: hsl(20, 50%, 98%);
+  --color-p-rose-500: hsl(20, 50%, 98%);
+  --color-p-rose-900: hsl(20, 50%, 98%);
+
+  --text-p-name: 16px;
+  --font-primary: "Red Hat Text", sans-serif;
+}

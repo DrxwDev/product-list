@@ -1,13 +1,15 @@
+import type { ReactNode } from "react";
+
 type ButtonProps = {
-  label: string;
+  children: ReactNode;
   styles: string;
   Method: () => void;
 };
 
-export default function Button({ label, Method, styles }: ButtonProps) {
+export default function Button({ children, Method, styles }: ButtonProps) {
   return (
     <button className={styles} onClick={Method} type="button">
-      {label}
+      {children}
     </button>
   );
 }
