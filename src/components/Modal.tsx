@@ -15,7 +15,7 @@ export default function Modal() {
         <div className="flex flex-col gap-5">
           <img
             className="w-12"
-            src="./src/assets/icons/icon-order-confirmed.svg"
+            src="/icons/icon-order-confirmed.svg"
             alt="Confirmed icon"
           />
           <div className="flex flex-col gap-1">

@@ -42,7 +42,7 @@ export default function Cart() {
                     className="size-4 rounded-full ring ring-custom-rose-500 flex items-center justify-center hover:ring-custom-rose-900 hover:cursor-pointer transition-all duration-200"
                   >
                     <img
-                      src="./src/assets/icons/icon-remove-item.svg"
+                      src="/icons/icon-remove-item.svg"
                       alt="Remove item icon"
                     />
                   </button>
@@ -55,10 +55,7 @@ export default function Cart() {
           </div>
           <div className="flex flex-col gap-6 mt-2">
             <div className="flex flex-row gap-2 justify-center items-center bg-custom-rose-50 py-4 rounded-lg">
-              <img
-                src="./src/assets/icons/icon-carbon-neutral.svg"
-                alt="Carbon icon"
-              />
+              <img src="/icons/icon-carbon-neutral.svg" alt="Carbon icon" />
               <p className="text-sm text-custom-rose-900">
                 This is a <span className="font-semibold">carbon-neutral</span>{" "}
                 delivery

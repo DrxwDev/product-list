@@ -11,20 +11,14 @@ export default function ProductButtons({ product }: Product) {
         className="size-4 rounded-full ring ring-white flex items-center justify-center hover:cursor-pointer"
         onClick={() => onDecProduct(product)}
       >
-        <img
-          src="./src/assets/icons/icon-decrement-quantity.svg"
-          alt="Decrement icon"
-        />
+        <img src="/icons/icon-decrement-quantity.svg" alt="Decrement icon" />
       </button>
       <span className="text-white text-sm font-semibold">{quantity}</span>
       <button
         className="size-4 rounded-full ring ring-white flex items-center justify-center hover:cursor-pointer"
         onClick={() => onIncProduct(product)}
       >
-        <img
-          src="./src/assets/icons/icon-increment-quantity.svg"
-          alt="Increment icon"
-        />
+        <img src="/icons/icon-increment-quantity.svg" alt="Increment icon" />
       </button>
     </div>
   );
