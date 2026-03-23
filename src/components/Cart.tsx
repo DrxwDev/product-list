@@ -9,9 +9,9 @@ export default function Cart() {
 
   return (
     <section className="w-full xl:max-w-100 bg-white p-6  rounded-lg shadow-md shadow-custom-rose-100">
-      <span className="text-2xl text-custom-red font-bold">
+      <h2 className="text-2xl text-custom-red font-bold">
         Your Cart ({totalItems})
-      </span>
+      </h2>
       {totalItems === 0 ? (
         <EmptyCart />
       ) : (
